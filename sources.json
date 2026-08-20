@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "strategy": "discord_announcement_relay",
+  "feed": "feed.json",
+  "sources": [
+    {
+      "id": "project-zomboid",
+      "name": "Project Zomboid",
+      "type": "discord_announcement",
+      "origin_guild_id": "136501320340209664",
+      "origin_channel_id": "545690772012531723",
+      "relay_channel_id": "1540046686301200454"
+    },
+    {
+      "id": "unofficial-pz-mapping-news",
+      "name": "Unofficial PZ Mapping Discord",
+      "type": "discord_announcement",
+      "origin_guild_id": "1002947509670400071",
+      "origin_channel_id": "1006246658750824451",
+      "section": "News",
+      "relay_channel_id": "1540046752483123202"
+    },
+    {
+      "id": "unofficial-pz-mapping-events",
+      "name": "Unofficial PZ Mapping Discord",
+      "type": "discord_announcement",
+      "origin_guild_id": "1002947509670400071",
+      "origin_channel_id": "1006181277906522122",
+      "section": "Event News",
+      "relay_channel_id": "1540046789091131432"
+    }
+  ],
+  "community_invite": "https://discord.com/invite/CFuNM8rtCp"
+}
